@@ -5,6 +5,7 @@ Reference Link: https://github.com/typicode/json-server
 
 https://my-json-server.typicode.com/ubuntu-prasad/daiv-json-server
 
+
 Use your own data
 Fork it and change db.json values or create a repo with a db.json file.
 
@@ -96,3 +97,11 @@ A GraphiQL interface, with specific documentation for your API, can be found dir
 ```
 https://mockend.com/ubuntu-prasad/daiv-json-server/graphql
 ```
+
+# FAKE API Websites:
+1. https://reqres.in/
+2. http://fakeapi.jsonparseronline.com/
+3. http://jsonplaceholder.typicode.com/
+4. https://fakerestapi.com/
+5. https://fakejson.com/ (Freemium)
+6. https://microenv.com/
