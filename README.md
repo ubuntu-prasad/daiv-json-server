@@ -8,23 +8,23 @@ https://my-json-server.typicode.com/ubuntu-prasad/daiv-json-server
 Use your own data
 Fork it and change db.json values or create a repo with a db.json file.
 
-#Mockend.com Fake API
+# Mockend.com Fake API
 
 Refer url for details https://docs.mockend.com/
 
-#Installation
+# Installation
 
 Install Mockend GitHub app on your repo. For the rest of the docs, we'll consider it's `org/repo`.
 
 Create a `.mockend.json` file to describe your API.
 
-#Configuration
+# Configuration
 
 Supported types are: `string`, `int`, `boolean` and `date`.
 
 You can also describe `has many` and `belongs` to relations.
 
-###For example:
+### For example:
 
 .mockend.json
 ```json
@@ -43,7 +43,7 @@ You can also describe `has many` and `belongs` to relations.
 }
 ```
 
-#Routes
+# Routes
 
 For REST, based on the previous config, the following routes will be created:
 ```
@@ -64,9 +64,9 @@ Simply add `tree/:branch_name` to your URL, for example:
 ```
 /ubuntu-prasad/daiv-json-server/tree/my-awesome-feature/graphql
 ```
-#Queries
+# Queries
 
-###REST
+### REST
 
 Query parameters can be used to filter, sort and paginate lists:
 
@@ -90,7 +90,7 @@ GET /posts
     &limit=5
 ```
 
-#GraphQL
+# GraphQL
 
 A GraphiQL interface, with specific documentation for your API, can be found directly at:
 ```
